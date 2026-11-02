@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20262.26.0912.1023                               -->
-<workbook _.fcp.WorkbookFingerprinting.true...author-id='9efad97c13437958b65edd0e5077deeb2322338d2d154f035b81b996934ab514' _.fcp.WorkbookFingerprinting.true...creator-author-id='9efad97c13437958b65edd0e5077deeb2322338d2d154f035b81b996934ab514' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='9efad97c13437958b65edd0e5077deeb2322338d2d154f035b81b996934ab514' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='9efad97c13437958b65edd0e5077deeb2322338d2d154f035b81b996934ab514' original-version='18.1' source-build='2026.2.3 (20262.26.0912.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='21132b604eaf34152e724bfbe24006794496be8dd705398df8d31b49470fcf74' _.fcp.WorkbookFingerprinting.true...creator-author-id='9efad97c13437958b65edd0e5077deeb2322338d2d154f035b81b996934ab514' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='9efad97c13437958b65edd0e5077deeb2322338d2d154f035b81b996934ab514' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='9efad97c13437958b65edd0e5077deeb2322338d2d154f035b81b996934ab514' original-version='18.1' source-build='2026.2.3 (20262.26.0912.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AnimationOnByDefault />
     <MarkAnimation />
@@ -43,729 +43,6 @@
         <range granularity='50' max='1000' min='0' />
       </column>
     </datasource>
-    <datasource caption='Sales Data (Tableau_Practice_Dataset)' inline='true' name='federated.0ep6si00qg7ui613hvs1f1ynrlr3' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='Tableau_Practice_Dataset' name='excel-direct.1k4v3f31t5eq681bes5ol1tivpt7'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/siddh/Downloads/Tableau_Practice_Dataset.xlsx' interpretationMode='0' password='' server='' validate='no' />
-          </named-connection>
-        </named-connections>
-        <relation connection='excel-direct.1k4v3f31t5eq681bes5ol1tivpt7' name='Sales Data' table='[&apos;Sales Data$&apos;]' type='table'>
-          <columns gridOrigin='A1:S1001:no:A1:S1001:0' header='yes' outcome='2'>
-            <column datatype='string' name='Order ID' ordinal='0' />
-            <column datatype='date' name='Order Date' ordinal='1' />
-            <column datatype='date' name='Ship Date' ordinal='2' />
-            <column datatype='string' name='Ship Mode' ordinal='3' />
-            <column datatype='string' name='Customer ID' ordinal='4' />
-            <column datatype='string' name='Customer Name' ordinal='5' />
-            <column datatype='string' name='Segment' ordinal='6' />
-            <column datatype='string' name='City' ordinal='7' />
-            <column datatype='string' name='State' ordinal='8' />
-            <column datatype='string' name='Region' ordinal='9' />
-            <column datatype='string' name='Category' ordinal='10' />
-            <column datatype='string' name='Sub-Category' ordinal='11' />
-            <column datatype='string' name='Product Name' ordinal='12' />
-            <column datatype='integer' name='Quantity' ordinal='13' />
-            <column datatype='real' name='Unit Price' ordinal='14' />
-            <column datatype='real' name='Discount' ordinal='15' />
-            <column datatype='real' name='Sales' ordinal='16' />
-            <column datatype='real' name='Profit' ordinal='17' />
-            <column datatype='real' name='Profit Margin %' ordinal='18' />
-          </columns>
-        </relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:S1001:no:A1:S1001:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>2</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Order ID</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Order ID]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Order ID</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Order Date</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[Order Date]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Order Date</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>date</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Ship Date</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[Ship Date]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Ship Date</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>date</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Ship Mode</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Ship Mode]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Ship Mode</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Customer ID</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Customer ID]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Customer ID</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Customer Name</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Customer Name]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Customer Name</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Segment</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Segment]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Segment</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>City</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[City]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>City</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>State</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[State]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>State</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Region</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Region]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Region</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Category</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Category]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Category</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sub-Category</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Sub-Category]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Sub-Category</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Product Name</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Product Name]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Product Name</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RIN_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Quantity</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Quantity]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Quantity</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Unit Price</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Unit Price]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Unit Price</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Discount</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Discount]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Discount</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sales</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Sales]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Sales</remote-alias>
-            <ordinal>16</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Profit</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Profit]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Profit</remote-alias>
-            <ordinal>17</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Profit Margin %</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Profit Margin %]</local-name>
-            <parent-name>[Sales Data]</parent-name>
-            <remote-alias>Profit Margin %</remote-alias>
-            <ordinal>18</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>15</precision>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
-            </attributes>
-            <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='top values01' datatype='boolean' name='[Calculation_0717209981734914]' role='measure' type='nominal'>
-        <calculation class='tableau' formula='SUM([Profit])&gt;=[Parameters].[Parameter 0717209980280833]' />
-      </column>
-      <column caption='region 01' datatype='boolean' name='[Calculation_1332661903691780]' role='dimension' type='nominal'>
-        <calculation class='tableau' formula='[Region]=[Parameters].[Parameter 1332661903364099]' />
-      </column>
-      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
-      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
-      <column caption='Sales Data' datatype='table' name='[__tableau_internal_object_id__].[Sales Data_9259469060484641B45833C7C958FDA2]' role='measure' type='quantitative' />
-      <drill-paths>
-        <drill-path name='State, City'>
-          <field>[State]</field>
-          <field>[City]</field>
-        </drill-path>
-      </drill-paths>
-      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/siddh/AppData/Local/Temp/TableauTemp/#TableauTemp_1eea9la02vervj16qukm10k6zx8a.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/08/2026 09:25:47 AM' username='tableau_internal_user'>
-          <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>Order ID</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Order ID]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Order ID</remote-alias>
-              <ordinal>0</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>1000</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Order Date</remote-name>
-              <remote-type>133</remote-type>
-              <local-name>[Order Date]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Order Date</remote-alias>
-              <ordinal>1</ordinal>
-              <family>Sales Data</family>
-              <local-type>date</local-type>
-              <aggregation>Year</aggregation>
-              <approx-count>741</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Ship Date</remote-name>
-              <remote-type>133</remote-type>
-              <local-name>[Ship Date]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Ship Date</remote-alias>
-              <ordinal>2</ordinal>
-              <family>Sales Data</family>
-              <local-type>date</local-type>
-              <aggregation>Year</aggregation>
-              <approx-count>743</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Ship Mode</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Ship Mode]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Ship Mode</remote-alias>
-              <ordinal>3</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Customer ID</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Customer ID]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Customer ID</remote-alias>
-              <ordinal>4</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>940</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Customer Name</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Customer Name]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Customer Name</remote-alias>
-              <ordinal>5</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>439</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Segment</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Segment]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Segment</remote-alias>
-              <ordinal>6</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>City</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[City]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>City</remote-alias>
-              <ordinal>7</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>30</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>State</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[State]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>State</remote-alias>
-              <ordinal>8</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>10</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Region</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Region]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Region</remote-alias>
-              <ordinal>9</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Category</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Category]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Category</remote-alias>
-              <ordinal>10</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>5</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Sub-Category</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Sub-Category]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Sub-Category</remote-alias>
-              <ordinal>11</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>18</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Product Name</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Product Name]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Product Name</remote-alias>
-              <ordinal>12</ordinal>
-              <family>Sales Data</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>590</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RIN_S2' />
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Quantity</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Quantity]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Quantity</remote-alias>
-              <ordinal>13</ordinal>
-              <family>Sales Data</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>20</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Unit Price</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Unit Price]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Unit Price</remote-alias>
-              <ordinal>14</ordinal>
-              <family>Sales Data</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>999</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Discount</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Discount]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Discount</remote-alias>
-              <ordinal>15</ordinal>
-              <family>Sales Data</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>6</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Sales</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Sales]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Sales</remote-alias>
-              <ordinal>16</ordinal>
-              <family>Sales Data</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1000</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Profit</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Profit]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Profit</remote-alias>
-              <ordinal>17</ordinal>
-              <family>Sales Data</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>999</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Profit Margin %</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[Profit Margin %]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Profit Margin %</remote-alias>
-              <ordinal>18</ordinal>
-              <family>Sales Data</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>920</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sales Data_9259469060484641B45833C7C958FDA2]</object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
-      </semantic-values>
-      <field-sort-info field-sort-order-type='custom-order'>
-        <field-sort-custom-order field='Order ID' />
-        <field-sort-custom-order field='Order Date' />
-        <field-sort-custom-order field='Ship Date' />
-        <field-sort-custom-order field='Ship Mode' />
-        <field-sort-custom-order field='Customer ID' />
-        <field-sort-custom-order field='Customer Name' />
-        <field-sort-custom-order field='Segment' />
-        <field-sort-custom-order field='City' />
-        <field-sort-custom-order field='State' />
-        <field-sort-custom-order field='Region' />
-        <field-sort-custom-order field='Calculation_1332661903691780' />
-        <field-sort-custom-order field='Category' />
-        <field-sort-custom-order field='Sub-Category' />
-        <field-sort-custom-order field='Product Name' />
-        <field-sort-custom-order field='Quantity' />
-        <field-sort-custom-order field='Unit Price' />
-        <field-sort-custom-order field='Discount' />
-        <field-sort-custom-order field='Sales' />
-        <field-sort-custom-order field='Profit' />
-        <field-sort-custom-order field='Profit Margin %' />
-        <field-sort-custom-order field='Geometry (generated)' />
-        <field-sort-custom-order field='Latitude (generated)' />
-        <field-sort-custom-order field='Longitude (generated)' />
-        <field-sort-custom-order field=':Measure Names' />
-        <field-sort-custom-order field='Multiple Values' />
-      </field-sort-info>
-      <datasource-dependencies datasource='Parameters'>
-        <column caption='top values' datatype='integer' name='[Parameter 0717209980280833]' param-domain-type='range' role='measure' type='quantitative' value='655001'>
-          <calculation class='tableau' formula='655001' />
-          <range granularity='5000' max='1000000' min='1' />
-        </column>
-        <column caption='region' datatype='string' name='[Parameter 1332661903364099]' param-domain-type='list' role='measure' type='nominal' value='&quot;South&quot;'>
-          <calculation class='tableau' formula='&quot;South&quot;' />
-        </column>
-      </datasource-dependencies>
-      <object-graph>
-        <objects>
-          <object caption='Sales Data' id='Sales Data_9259469060484641B45833C7C958FDA2'>
-            <properties context=''>
-              <relation connection='excel-direct.1k4v3f31t5eq681bes5ol1tivpt7' name='Sales Data' table='[&apos;Sales Data$&apos;]' type='table'>
-                <columns gridOrigin='A1:S1001:no:A1:S1001:0' header='yes' outcome='2'>
-                  <column datatype='string' name='Order ID' ordinal='0' />
-                  <column datatype='date' name='Order Date' ordinal='1' />
-                  <column datatype='date' name='Ship Date' ordinal='2' />
-                  <column datatype='string' name='Ship Mode' ordinal='3' />
-                  <column datatype='string' name='Customer ID' ordinal='4' />
-                  <column datatype='string' name='Customer Name' ordinal='5' />
-                  <column datatype='string' name='Segment' ordinal='6' />
-                  <column datatype='string' name='City' ordinal='7' />
-                  <column datatype='string' name='State' ordinal='8' />
-                  <column datatype='string' name='Region' ordinal='9' />
-                  <column datatype='string' name='Category' ordinal='10' />
-                  <column datatype='string' name='Sub-Category' ordinal='11' />
-                  <column datatype='string' name='Product Name' ordinal='12' />
-                  <column datatype='integer' name='Quantity' ordinal='13' />
-                  <column datatype='real' name='Unit Price' ordinal='14' />
-                  <column datatype='real' name='Discount' ordinal='15' />
-                  <column datatype='real' name='Sales' ordinal='16' />
-                  <column datatype='real' name='Profit' ordinal='17' />
-                  <column datatype='real' name='Profit Margin %' ordinal='18' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </object-graph>
-    </datasource>
     <datasource caption='AirBnB_NYC (airbnb)' inline='true' name='federated.0uel9or0ab1ava13m8em9023cw6g' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -774,7 +51,7 @@
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.0a7gmbj02m5vud1c63znl0lietjw' name='AirBnB_NYC' table='[AirBnB_NYC$]' type='table'>
-          <columns gridOrigin='A1:M10001:no:A1:M2147483647:0' header='yes' outcome='2'>
+          <columns gridOrigin='A1:M10001:no:A1:M10001:0' header='yes' outcome='2'>
             <column datatype='integer' name='Host Id' ordinal='0' />
             <column datatype='date' name='Host Since' ordinal='1' />
             <column datatype='string' name='Name' ordinal='2' />
@@ -799,8 +76,8 @@
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
-              <attribute datatype='integer' name='context'>2</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:M10001:no:A1:M2147483647:0&quot;</attribute>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M10001:no:A1:M10001:0&quot;</attribute>
               <attribute datatype='boolean' name='header'>true</attribute>
               <attribute datatype='integer' name='outcome'>2</attribute>
             </attributes>
@@ -1033,7 +310,7 @@
       <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
       <column caption='AirBnB_NYC' datatype='table' name='[__tableau_internal_object_id__].[AirBnB!NYC_374E557DD6CB4354839764B550C3B462]' role='measure' type='quantitative' />
       <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/siddh/AppData/Local/Temp/TableauTemp/#TableauTemp_1pgdzyb032csvb19wey9r1av917a.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/09/2026 05:32:40 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/siddh/AppData/Local/Temp/TableauTemp/#TableauTemp_1tly3p61qx13gf190ic0p0b72wf5.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/19/2026 07:56:08 AM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
             <metadata-record class='column'>
@@ -1247,11 +524,454 @@
           <object caption='AirBnB_NYC' id='AirBnB!NYC_374E557DD6CB4354839764B550C3B462'>
             <properties context=''>
               <relation connection='excel-direct.0a7gmbj02m5vud1c63znl0lietjw' name='AirBnB_NYC' table='[AirBnB_NYC$]' type='table'>
-                <columns gridOrigin='A1:M10001:no:A1:M2147483647:0' header='yes' outcome='2'>
+                <columns gridOrigin='A1:M10001:no:A1:M10001:0' header='yes' outcome='2'>
                   <column datatype='integer' name='Host Id' ordinal='0' />
                   <column datatype='date' name='Host Since' ordinal='1' />
                   <column datatype='string' name='Name' ordinal='2' />
                   <column datatype='string' name='Neighbourhood' ordinal='3' />
+                  <column datatype='string' name='Property Type' ordinal='4' />
+                  <column datatype='integer' name='Review Scores Rating (bin)' ordinal='5' />
+                  <column datatype='string' name='Room Type' ordinal='6' />
+                  <column datatype='integer' name='Zipcode' ordinal='7' />
+                  <column datatype='integer' name='Beds' ordinal='8' />
+                  <column datatype='integer' name='Number of Records' ordinal='9' />
+                  <column datatype='integer' name='Number Of Reviews' ordinal='10' />
+                  <column datatype='integer' name='Price' ordinal='11' />
+                  <column datatype='integer' name='Review Scores Rating' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Airbnb_listings' inline='true' name='federated.121d4po1hp0w3n1cco7gy0qmrcrz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Airbnb_listings' name='textscan.19g4hn00t3xf2i16ga5vo17irb7r'>
+            <connection class='textscan' directory='C:/Users/siddh/Downloads' filename='Airbnb_listings.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.19g4hn00t3xf2i16ga5vo17irb7r' name='Airbnb_listings.csv' table='[Airbnb_listings#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='Host Id' ordinal='0' />
+            <column datatype='datetime' name='Host Since' ordinal='1' />
+            <column datatype='string' name='Name' ordinal='2' />
+            <column datatype='string' name='Neighbourhood ' ordinal='3' />
+            <column datatype='string' name='Property Type' ordinal='4' />
+            <column datatype='integer' name='Review Scores Rating (bin)' ordinal='5' />
+            <column datatype='string' name='Room Type' ordinal='6' />
+            <column datatype='integer' name='Zipcode' ordinal='7' />
+            <column datatype='integer' name='Beds' ordinal='8' />
+            <column datatype='integer' name='Number of Records' ordinal='9' />
+            <column datatype='integer' name='Number Of Reviews' ordinal='10' />
+            <column datatype='integer' name='Price' ordinal='11' />
+            <column datatype='integer' name='Review Scores Rating' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Host Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Host Id]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Host Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Host Since</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Host Since]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Host Since</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighbourhood </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighbourhood ]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Neighbourhood </remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Property Type]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Property Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Review Scores Rating (bin)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Review Scores Rating (bin)]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Review Scores Rating (bin)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Room Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Room Type]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Room Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zipcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zipcode]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Zipcode</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Beds]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Beds</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Records]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Number of Records</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number Of Reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number Of Reviews]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Number Of Reviews</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Review Scores Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Review Scores Rating]</local-name>
+            <parent-name>[Airbnb_listings.csv]</parent-name>
+            <remote-alias>Review Scores Rating</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Host Id]' role='dimension' type='ordinal' />
+      <column caption='Neighbourhood' datatype='string' name='[Neighbourhood ]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Airbnb_listings.csv' datatype='table' name='[__tableau_internal_object_id__].[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/siddh/AppData/Local/Temp/TableauTemp/#TableauTemp_1ailssr00srlb21a20bkl0lrltrr.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/19/2026 07:56:37 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Host Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Host Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Host Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Host Since</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Host Since]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Host Since</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Neighbourhood </remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Neighbourhood ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Neighbourhood </remote-alias>
+              <ordinal>3</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Property Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Property Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Property Type</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Review Scores Rating (bin)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Review Scores Rating (bin)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Review Scores Rating (bin)</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Room Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Room Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Room Type</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Zipcode</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Zipcode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Zipcode</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Beds</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Beds]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Beds</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of Records</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of Records]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of Records</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number Of Reviews</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number Of Reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number Of Reviews</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Review Scores Rating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Review Scores Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Review Scores Rating</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Airbnb_listings.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Airbnb_listings.csv' id='Airbnb_listings.csv_DAD5B0499E5C4CB4875B7BD5A6A7F8E3'>
+            <properties context=''>
+              <relation connection='textscan.19g4hn00t3xf2i16ga5vo17irb7r' name='Airbnb_listings.csv' table='[Airbnb_listings#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='Host Id' ordinal='0' />
+                  <column datatype='datetime' name='Host Since' ordinal='1' />
+                  <column datatype='string' name='Name' ordinal='2' />
+                  <column datatype='string' name='Neighbourhood ' ordinal='3' />
                   <column datatype='string' name='Property Type' ordinal='4' />
                   <column datatype='integer' name='Review Scores Rating (bin)' ordinal='5' />
                   <column datatype='string' name='Room Type' ordinal='6' />
@@ -1299,51 +1019,6 @@
       </table>
       <simple-id uuid='{FCA69093-4679-48AE-BAE0-092046E9757A}' />
     </worksheet>
-    <worksheet name='Sheet 2'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='Sales Data (Tableau_Practice_Dataset)' name='federated.0ep6si00qg7ui613hvs1f1ynrlr3' />
-            <datasource name='Parameters' />
-          </datasources>
-          <datasource-dependencies datasource='Parameters'>
-            <column caption='region' datatype='string' name='[Parameter 1332661903364099]' param-domain-type='list' role='measure' type='nominal' value='&quot;South&quot;'>
-              <calculation class='tableau' formula='&quot;South&quot;' />
-            </column>
-          </datasource-dependencies>
-          <datasource-dependencies datasource='federated.0ep6si00qg7ui613hvs1f1ynrlr3'>
-            <column caption='region 01' datatype='boolean' name='[Calculation_1332661903691780]' role='dimension' type='nominal'>
-              <calculation class='tableau' formula='[Region]=[Parameters].[Parameter 1332661903364099]' />
-            </column>
-            <column datatype='string' name='[Customer Name]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
-            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
-            <column-instance column='[Calculation_1332661903691780]' derivation='None' name='[none:Calculation_1332661903691780:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Customer Name]' derivation='None' name='[none:Customer Name:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.0ep6si00qg7ui613hvs1f1ynrlr3].[none:Calculation_1332661903691780:nk]'>
-            <groupfilter function='member' level='[none:Calculation_1332661903691780:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
-          </filter>
-          <slices>
-            <column>[federated.0ep6si00qg7ui613hvs1f1ynrlr3].[none:Calculation_1332661903691780:nk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style />
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-          </pane>
-        </panes>
-        <rows>[federated.0ep6si00qg7ui613hvs1f1ynrlr3].[sum:Sales:qk]</rows>
-        <cols>[federated.0ep6si00qg7ui613hvs1f1ynrlr3].[none:Customer Name:nk]</cols>
-      </table>
-      <simple-id uuid='{BAF8BE1D-2618-4AC0-8E44-77A55F8AD218}' />
-    </worksheet>
   </worksheets>
   <windows saved-dpi-scale-factor='1.25' source-height='63'>
     <window class='worksheet' maximized='true' name='Sheet 1'>
@@ -1375,96 +1050,62 @@
       </cards>
       <simple-id uuid='{453E2E91-ADF5-4A49-9CF9-BA8A44CCF593}' />
     </window>
-    <window class='worksheet' name='Sheet 2'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
-            <card mode='compact' param='[Parameters].[Parameter 1332661903364099]' type='parameter' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{EFE5F649-BC17-485D-B305-A0216F5C2CA6}' />
-    </window>
   </windows>
   <thumbnails>
     <thumbnail height='192' name='Sheet 1' width='151'>
       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
-      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
-      LhLDuEjM/wCyTepoU3YD+gAAAABJRU5ErkJggg==
+      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
     </thumbnail>
   </thumbnails>
 </workbook>
